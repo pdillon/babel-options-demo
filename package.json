@@ -2,11 +2,12 @@
   "name": "babel-options-demo",
   "version": "1.0.0",
   "description": "\"Sample demonstrating config issue\"",
-  "main": "dest/transpile",
+  "main": "index.js",
   "scripts": {
-    "build": "babel --only src/transpile ./ -d ./dest",
-    "build:noopts": "babel ./ -d ./dest",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel  --only /transpile ./src -d ./dest",
+    "build:noopts": "babel ./src -d ./dest",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

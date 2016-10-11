@@ -8,6 +8,3 @@ export default class Bar {
         this.bar = {...foo};
     }
 }
-
-const barClass = new Bar();
-console.log(barClass.bar);
