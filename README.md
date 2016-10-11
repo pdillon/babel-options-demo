@@ -19,4 +19,4 @@ only the /transpile folder is processed, however, when the command line switch i
 ```
 babel ./src -d ./dest
 ```
-the root .babelrc "only" option is ignored and both /skip folder is included in the /dest output.
+the root .babelrc "only" option is ignored and both folders end up in the /dest output.
