@@ -1,0 +1,5 @@
+{
+  "only": "src/transpile",
+  "ignore": "node_modules",
+  "presets": ["es2015", "stage-0"]
+}
